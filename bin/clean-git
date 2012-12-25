@@ -1,0 +1,14 @@
+#!/bin/bash
+
+git checkout master
+git fetch --all
+git pull --ff-only
+git submodule update
+
+git submodule foreach git fetch --all
+git submodule foreach git checkout master
+git submodule foreach git pull --ff-only
+
+clean-git-branches
+
+git submodule foreach clean-git-branches
