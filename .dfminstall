@@ -1,1 +1,5 @@
 README.md skip
+install-oh-my-zsh.sh exec
+install-oh-my-zsh.sh skip
+.ssh recurse
+.ssh/config chmod 0600
