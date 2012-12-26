@@ -30,3 +30,5 @@ then
 fi;
 
 bindkey '\e.' insert-last-word
+
+alias irc="ssh slumber.sourceguru.net -t screen -raAD"
