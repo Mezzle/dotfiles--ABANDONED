@@ -30,5 +30,3 @@ then
 fi;
 
 bindkey '\e.' insert-last-word
-
-export ORGNAME=sydiw
