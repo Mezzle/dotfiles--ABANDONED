@@ -1,4 +1,3 @@
-
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -11,12 +10,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/web/tools:$HOME/bin:$PATH
 
 export VISUAL=vim
 export EDITOR=vim
 
-export DEBEMAIL="mez@debian.org"
+export DEBEMAIL="martinmeredith@protecinnovations.co.uk"
 export DEBFULLNAME="Martin Meredith"
 
 #export RPROMPT='%B%d%b %t '
@@ -32,3 +31,27 @@ fi;
 bindkey '\e.' insert-last-word
 
 alias irc="ssh slumber.sourceguru.net -t screen -raAD"
+
+export AWS_AUTO_SCALING_HOME=/usr/local/ec2-auto-scaling-tools/
+export AWS_CLOUDWATCH_HOME=/usr/local/ec2-cloudwatch-tools/
+export AWS_ELB_HOME=/usr/local/ec2-elb-tools/
+export AWS_IAM_HOME=/usr/local/ec2-iam-tools/
+export JAVA_HOME=/usr/lib/jvm/java-6-sun/jre/
+
+export CS_HOME=/usr/local/cloud-search-tools/
+export PATH=$PATH:/usr/local/ec2-auto-scaling-tools/bin/:/usr/local/ec2-cloudwatch-tools/bin/:/usr/local/ec2-elb-tools/bin/:/usr/local/ec2-iam-tools/bin/:/usr/lib/jvm/java-6-sun/jre/bin/:/usr/local/cloud-search-tools/bin
+
+export EC2_PRIVATE_KEY=~/.ssh/pk-protec-ec2.pem
+export EC2_CERT=~/.ssh/protec-ec2.pem
+export EC2_URL=https://eu-west-1.ec2.amazonaws.com
+export EC2_REGION=eu-west-1
+
+export PATH=/home/users/mez/Programs/android-sdk-linux/tools:/home/users/mez/Programs/apache-ant-1.8.3/bin:$PATH
+export PATH=$PATH:/home/users/mez/.gem/ruby/1.8/bin
+
+export LOLCOMMITS_DELAY=40;
+export LOLCOMMITS_TRANZLATE=1
+
+export AWS_CREDENTIAL_FILE=/home/users/mez/.aws
+
+alias vagrant-restartphp="vagrant ssh -c \"sudo /etc/init.d/php5-fpm restart\""
