@@ -46,12 +46,12 @@ export EC2_CERT=~/.ssh/protec-ec2.pem
 export EC2_URL=https://eu-west-1.ec2.amazonaws.com
 export EC2_REGION=eu-west-1
 
-export AWS_CREDENTIAL_FILE=/home/users/mez/.aws
-
 export PATH=/opt/vagrant/bin:$PATH
 export PATH=./vendor/bin:$PATH
 
-alias vagrant-restartphp="vagrant ssh -c \"sudo /etc/init.d/php5-fpm restart\""
-
 export PATH=$HOME/dev/v2-tools:$PATH
 export CHEF_DIR=$HOME/dev/chef-repo
+
+export AWS_CREDENTIAL_FILE=/home/users/mez/.aws
+
+alias vagrant-restartphp="vagrant ssh -c \"sudo /etc/init.d/php5-fpm restart\""
