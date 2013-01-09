@@ -1,5 +1,5 @@
 #!/bin/bash
 
 for f in `git diff --cached --name-status --diff-filter=ACM | grep -Ev "^D" | awk '{print $2}' | grep -E "ph(p|tml)" | grep -v "misc/migrations"`; do
-    php-cs-fixer --level=psr2 --fixers=unused_use,return,extra_empty_lines fix $f
+    php-cs-fixer --level=psr2 --fixers=unused_use,return,extra_empty_lines,controls_spaces fix $f
 done
