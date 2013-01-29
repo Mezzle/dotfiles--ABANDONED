@@ -1,6 +1,4 @@
 README.md skip
-install-oh-my-zsh.sh exec
-install-oh-my-zsh.sh skip
 setup-vim-dirs.sh exec
 setup-vim-dirs.sh skip
 .ssh recurse
