@@ -27,5 +27,3 @@
     wtf = !git-wtf
     get-branch = !git branch | grep '*' | cut -b 3-
 
-[push]
-	default = simple
