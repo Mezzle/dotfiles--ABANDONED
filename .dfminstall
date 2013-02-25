@@ -4,3 +4,4 @@ setup-vim-dirs.sh skip
 .ssh recurse
 .ssh/config chmod 0600
 .gitmodules skip
+.config recurse

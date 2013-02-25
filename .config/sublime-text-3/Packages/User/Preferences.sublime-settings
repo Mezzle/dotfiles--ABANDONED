@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
+	"copy_with_empty_selection": false,
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 13,
+	"hot_exit": false,
+	"index_files": true,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
