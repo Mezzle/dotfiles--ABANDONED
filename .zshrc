@@ -33,4 +33,5 @@ bindkey '\e.' insert-last-word
 
 alias irc="ssh slumber.sourceguru.net -t screen -raAD"
 
+export PATH=$PATH:/home/mez/dev/v2-tools
 export CHEF_DIR=/home/mez/dev/chef-repo
