@@ -55,3 +55,5 @@ alias vagrant-restartphp="vagrant ssh -c \"sudo /etc/init.d/php5-fpm restart\""
 
 export PATH=$HOME/dev/v2-tools:$PATH
 export CHEF_DIR=$HOME/dev/chef-repo
+export PATH=$HOME/.composer/vendor/bin:$PATH
+
