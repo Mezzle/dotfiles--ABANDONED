@@ -32,3 +32,5 @@ fi;
 bindkey '\e.' insert-last-word
 
 alias irc="ssh slumber.sourceguru.net -t screen -raAD"
+
+export PATH=$PATH:/home/mez/dev/v2-tools
