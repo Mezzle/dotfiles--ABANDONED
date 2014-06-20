@@ -31,6 +31,10 @@
 	"font_face": "Ubuntu Mono",
 	"font_size": 18,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"index_files": true,
 	"rulers":
 	[

@@ -26,6 +26,7 @@
     smur        = submodule update --recursive
     wtf = !git-wtf
     get-branch = !git branch | grep '*' | cut -b 3-
+    cleanup = !git sweep cleanup --master=integration --skip=master
 
 [push]
 	default = simple

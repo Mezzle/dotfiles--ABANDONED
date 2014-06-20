@@ -36,10 +36,11 @@ export AWS_AUTO_SCALING_HOME=/usr/local/ec2-auto-scaling-tools/
 export AWS_CLOUDWATCH_HOME=/usr/local/ec2-cloudwatch-tools/
 export AWS_ELB_HOME=/usr/local/ec2-elb-tools/
 export AWS_IAM_HOME=/usr/local/ec2-iam-tools/
+export AWS_RDS_HOME=/usr/local/ec2-rds-tools/
 export JAVA_HOME=/usr/lib/jvm/java-6-sun/jre/
 
 export CS_HOME=/usr/local/cloud-search-tools/
-export PATH=$PATH:/usr/local/ec2-auto-scaling-tools/bin/:/usr/local/ec2-cloudwatch-tools/bin/:/usr/local/ec2-elb-tools/bin/:/usr/local/ec2-iam-tools/bin/:/usr/lib/jvm/java-6-sun/jre/bin/:/usr/local/cloud-search-tools/bin
+export PATH=$PATH:/usr/local/ec2-rds-tools/bin/:/usr/local/ec2-auto-scaling-tools/bin/:/usr/local/ec2-cloudwatch-tools/bin/:/usr/local/ec2-elb-tools/bin/:/usr/local/ec2-iam-tools/bin/:/usr/lib/jvm/java-6-sun/jre/bin/:/usr/local/cloud-search-tools/bin
 
 export EC2_PRIVATE_KEY=~/.ssh/pk-protec-ec2.pem
 export EC2_CERT=~/.ssh/protec-ec2.pem
@@ -57,3 +58,7 @@ export PATH=$HOME/dev/v2-tools:$PATH
 export CHEF_DIR=$HOME/dev/chef-repo
 export PATH=$HOME/.composer/vendor/bin:$PATH
 
+autoload -Uz vcs_info
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
