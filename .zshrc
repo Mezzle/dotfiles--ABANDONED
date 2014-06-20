@@ -52,7 +52,7 @@ export AWS_CREDENTIAL_FILE=/home/users/mez/.aws
 export PATH=/opt/vagrant/bin:$PATH
 export PATH=./vendor/bin:$PATH
 
-alias vagrant-restartphp="vagrant ssh -c \"sudo /etc/init.d/php5-fpm restart\""
+alias vagrant-restartphp="vagrant ssh -c \"sudo service php5-fpm restart\""
 
 export PATH=$HOME/dev/v2-tools:$PATH
 export CHEF_DIR=$HOME/dev/chef-repo
